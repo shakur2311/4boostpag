@@ -1,0 +1,79 @@
+@import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap";
+.body{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.section-frase{
+
+  background-size: cover;
+  background-position: center center;
+  background: url('../img/plants-bg.jpg');
+  color:#fff;
+  background-attachment: fixed;
+
+
+
+}
+/*--------navbar----------*/
+.navbar a{
+  font-family:'Josefin Sans', sans-serif;
+}
+/*---------home---------------*/
+.home{
+  background:url('../img/background.jpg') no-repeat center center;
+  width:100%;
+  height:100vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.home h2{
+  font-size:80px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+.home2 {
+  width: 100%;
+  height:100vh;
+  background:url('../img/background2.jpg');
+
+}
+.home2 h2{
+  font-size:50px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+/*-------------------team-------------------------------------*/
+
+.features-wrapper, .team-wrapper { margin: 70px 0 0; }
+.team img { margin-bottom: 40px; }
+ul.social-buttons { list-style: none; margin: 0; padding: 0; }
+ul.social-buttons li { display: inline-block; margin-right: 10px; }
+ul.social-buttons li:last-child { margin-right: 0; }
+.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #051C2C; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
+.social-btn:hover, .social-btn:focus { background: #00B7BD; color: #fff; }
+.social { margin-top: 25px }
+.social-btn2{ padding-top:10px;width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #242830; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
+.social-btn2:hover, .social-btn2:focus{background: #00B7BD; color: #fff;}
+.social-btn3{color:#051C2C; font-size:30px;}
+/*-----------slides-------------*/
+#servicesSlider { margin-top: 70px; }
+ul.slides li { margin-bottom: 20px; }
+/*---------------------*/
+
+/*misionvision*/
+
+
+/*----------*/
+/*portfolio*/
+.box{
+
+}
+
+/*----------*/

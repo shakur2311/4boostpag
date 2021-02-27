@@ -1,8 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap";
 .body{
   font-family: 'Josefin Sans', sans-serif;
+  padding:0px;
+  margin:0px;
 
 }
+
 .section-frase{
 
   background-size: cover;
@@ -42,10 +45,52 @@
   width: 100%;
   height:100vh;
   background:url('../img/background2.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 .home2 h2{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+.home3{
+  background:url('../img/background3.jpg');
+  height: 100vh;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.home3 h2{
+  font-size:80px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+.home4{
+  background:url('../img/background4.jpg');
+  height: 100vh;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.home4 h2{
+  font-size:80px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
@@ -77,3 +122,15 @@ ul.slides li { margin-bottom: 20px; }
 }
 
 /*----------*/
+/*----Paquetes------*/
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='invert(51%) sepia(99%) saturate(544%) hue-rotate(137deg) brightness(88%) contrast(102%);' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='invert(51%) sepia(99%) saturate(544%) hue-rotate(137deg) brightness(88%) contrast(102%);' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-indicators{
+  
+}
+/*---------------*/

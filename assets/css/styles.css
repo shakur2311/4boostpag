@@ -1,8 +1,15 @@
 @import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap";
-.body{
+*{
   font-family: 'Josefin Sans', sans-serif;
   padding:0px;
-  margin:0px;
+  margin-right:0px;
+  box-sizing:border-box;
+
+
+
+}
+body{
+  width:100%;
 
 }
 
@@ -17,9 +24,13 @@
 
 
 }
+.navbar{
+
+}
 /*--------navbar----------*/
 .navbar a{
   font-family:'Josefin Sans', sans-serif;
+
 }
 /*---------home---------------*/
 .home{
@@ -34,12 +45,14 @@
   -o-background-size: cover;
   background-size: cover;
 
+
 }
 
 .home h2{
-  font-size:80px;
+  font-size:60px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
+
 }
 .home2 {
   width: 100%;
@@ -55,7 +68,7 @@
 
 }
 .home2 h2{
-  font-size:80px;
+  font-size:60px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
@@ -73,7 +86,7 @@
 
 }
 .home3 h2{
-  font-size:80px;
+  font-size:60px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
@@ -90,9 +103,12 @@
   background-size: cover;
 }
 .home4 h2{
-  font-size:80px;
+  font-size:60px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
+  width:100%;
+  display:flex;
+  justify-content: right;
 }
 /*-------------------team-------------------------------------*/
 
@@ -117,8 +133,9 @@ ul.slides li { margin-bottom: 20px; }
 
 /*----------*/
 /*portfolio*/
-.box{
-
+.portfolio{
+  border-box:0px;
+  margin:0px;
 }
 
 /*----------*/
@@ -130,7 +147,30 @@ ul.slides li { margin-bottom: 20px; }
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='invert(51%) sepia(99%) saturate(544%) hue-rotate(137deg) brightness(88%) contrast(102%);' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-.carousel-indicators{
-  
-}
+
 /*---------------*/
+/*---------pagina-portafolio------------*/
+.home-milu{
+  background-image:url("../img/portafolio/milu/milu1.jpg");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100vh;
+}
+.home-bs{
+  background-image:url("../img/portafolio/bs/belle1.jpg");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100vh;
+}
+.home-mamayo{
+  background-image:url("../img/portafolio/mamayo/mamayo1.jpg");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100vh;
+}
